@@ -197,7 +197,6 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ImageController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SuperHeroController.cs" />
     <Compile Include="Global.asax.cs">
@@ -210,8 +209,6 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\Image.cs" />
-    <Compile Include="Models\ImageModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Superhero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -228,9 +225,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\ImageMetaData.xml" />
-    <Content Include="Images\poison-ivy-batman-greatest-villains.jpg" />
-    <Content Include="Images\poison-ivy-on-a-bed-of-plants.jpg" />
-    <Content Include="Images\poison-ivy-plant-avatars.jpg" />
+    <Content Include="Images\PoisonIvy2.jpg" />
+    <Content Include="Images\PoisonIvy1.jpg" />
+    <Content Include="Images\PoisonIvy3.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
